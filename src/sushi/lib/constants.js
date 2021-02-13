@@ -65,10 +65,10 @@ export const CHAIN_ID = 1
 
 export const contractAddresses = {
   sushi: {
-    1: '0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852', //METH Token Contract
+    1: '0x11003E410ca3FcD220765B3d2f343433A0b2bffd', //METH Token Contract
   },
   masterChef: {
-    1: '0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852', //Farming Bad
+    1: '0x12659D7eCFdDe69F19Cea138799Eb7C6e0212A2c', //Farming Bad
   },
   weth: {
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', //WETH
@@ -82,10 +82,10 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      1: '0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852',
+      1: '0x429d2daabf4d281e8d768f6c08a316e90957ddec',
     },
     tokenAddresses: {
-      1: '0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852',
+      1: '0x11003E410ca3FcD220765B3d2f343433A0b2bffd',
     },
     name: 'Heisenberg',
     symbol: 'METH-ETH UNI-V2 LP',
@@ -93,7 +93,7 @@ export const supportedPools = [
     icon: <img alt="Heisenberg" src={Heisenberg} />,
     pool: 'uniswap',
     uniswapLPUrl:
-      'https://app.uniswap.org/#/add/ETH/0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852',
+      'https://app.uniswap.org/#/add/ETH/0x11003E410ca3FcD220765B3d2f343433A0b2bffd',
   },
 {
     pid: 1,
